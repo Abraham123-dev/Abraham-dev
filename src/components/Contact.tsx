@@ -51,7 +51,6 @@ export function Contact() {
                 </div>
 
                 <p className="leading-relaxed mt-2 md:mt-4">
-                  Lagos, Nigeria<br />
                   Available for remote work, Contract roles & Full-time roles
                 </p>
               </div>
