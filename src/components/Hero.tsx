@@ -30,13 +30,13 @@ export function Hero() {
             
             <FadeIn delay={0.5}>
               <p className="max-w-xl text-sm sm:text-base md:text-lg text-muted leading-relaxed mb-12 md:mb-16 text-balance pr-4 md:pr-8 lg:pr-0">
-                Abraham is a Nigeria-based Front-End Engineer focused on building scalable, high-performance web applications using modern technologies. He is currently expanding into backend development and AI engineering.
+                Abraham is a Front-End Engineer focused on building scalable, high-performance web applications using modern technologies. He is currently expanding into backend development and AI engineering.
               </p>
             </FadeIn>
             
             <FadeIn delay={0.6}>
               <div className="flex flex-wrap gap-4 md:gap-8 text-[10px] sm:text-xs font-mono tracking-widest text-muted/60 uppercase">
-                <span>Based in Lagos, Nigeria</span>
+                <span>Based in Nigeria,</span>
                 <span className="hidden sm:inline">•</span>
                 <span>Software Engineering</span>
               </div>
@@ -50,7 +50,7 @@ export function Hero() {
                 SOFTWARE ENGINEERING
               </div>
               
-              <div className="w-full max-w-[240px] sm:max-w-[280px] md:max-w-[300px] lg:max-w-[340px] aspect-[3/4] bg-[#111] rounded-2xl overflow-hidden relative group shadow-2xl">
+              <div className="w-full max-w-60 sm:max-w-70 md:max-w-75 lg:max-w-85 aspect-3/4 bg-[#111] rounded-2xl overflow-hidden relative group shadow-2xl">
                 <img 
                   src={abrahamImg} 
                   alt="Portrait of Abraham" 
@@ -59,7 +59,7 @@ export function Hero() {
                 <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl pointer-events-none"></div>
               </div>
               
-              <p className="max-w-[240px] text-[10px] sm:text-xs font-mono text-muted uppercase tracking-widest leading-relaxed mt-6 md:mt-8 text-center md:text-right">
+              <p className="max-w-60 text-[10px] sm:text-xs font-mono text-muted uppercase tracking-widest leading-relaxed mt-6 md:mt-8 text-center md:text-right">
                 Building calm, scalable interfaces for product-led teams.
               </p>
             </FadeIn>
