@@ -30,7 +30,7 @@ export function Hero() {
             
             <FadeIn delay={0.5}>
               <p className="max-w-xl text-sm sm:text-base md:text-lg text-muted leading-relaxed mb-12 md:mb-16 text-balance pr-4 md:pr-8 lg:pr-0">
-                Abraham is a Front-End Engineer focused on building scalable, high-performance web applications using modern technologies. He is currently expanding into backend development and AI engineering.
+                Abraham is a Front-End Engineer focused on building scalable, high-performance web applications using modern technologies. He is currently expanding into backend development and AI engineering for more context.
               </p>
             </FadeIn>
             
