@@ -12,7 +12,7 @@ export function Contact() {
           <div className="md:col-span-2 lg:col-span-6">
             <FadeIn delay={0.2}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.9]">
-                Engineering<br />Interfaces<br />for Growth.
+                Engineering <br /> Scalable Product<br />for Growth.
               </h1>
             </FadeIn>
           </div>

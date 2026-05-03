@@ -35,20 +35,20 @@ export function Bio() {
           <div className="md:col-span-7 lg:col-span-7 flex flex-col pt-4 md:pt-0 lg:pt-32">
             <FadeIn delay={0.4}>
               <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-foreground/90 mb-8 md:mb-12 leading-tight">
-                Bridging the gap between complex engineering and intuitive design.
+                Building interfaces that work well and solve real problems.
               </h3>
             </FadeIn>
 
             <FadeIn delay={0.5}>
               <div className="flex flex-col gap-8 md:gap-10 lg:gap-12 text-base sm:text-lg md:text-xl text-muted leading-relaxed text-balance font-light">
                 <p>
-                  I am a Front-End Engineer with over a year of experience and a deep passion for crafting digital experiences that are as robust under the hood as they are beautiful on the screen. My approach to software development is rooted in system thinking, and I intend on building scalable, product-led systems that empower teams to move faster and deliver real value.
+                  I'm a Software Engineer focused on frontend development with over a year of experience building web products that scale. I work with product teams to deliver real value—partnering with backend developers, using APIs effectively, and making sure every solution actually solves a problem.
                 </p>
                 <p>
-                  With hands-on experience building platforms—from ticketing systems at Axile to user research tools at UserTesting—I specialize in React, Next.js, and modern TypeScript ecosystems. I have had the privilege of working alongside amazing developers to boost my skills and creativity, which has driven my ability to architect reusable component libraries and orchestrate elegant micro-interactions.
+                  I've built platforms like ticketing systems at Axile and user research tools at UserTesting using React, Next.js, and TypeScript. I don't just write code—I solve problems. Whether it's building smooth interfaces, managing complex state, or making things faster, I think carefully about every decision. I build reusable components, systems that grow with your needs, and code that works for both users and your product goals.
                 </p>
                 <p>
-                  Beyond the frontend, I possess a strong awareness of UI/UX design principles, ensuring that every line of code serves the user's journey. I am currently expanding my technical horizons into Backend Development and AI Engineering. I believe the future of the web lies at the intersection of intelligent, data-driven systems and seamless user interfaces, and I am actively building my skill set to lead in this evolving space.
+                  I'm learning Backend Development and AI Engineering to become a more complete engineer. I want to build end-to-end solutions that make a real difference for the teams and products I work with.
                 </p>
               </div>
             </FadeIn>
