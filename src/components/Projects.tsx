@@ -179,38 +179,24 @@ export function Projects() {
                               </ul>
                             </div>
                             <div className="pt-2 flex flex-wrap gap-6">
-                              {project.link && (
-                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs sm:text-sm font-bold tracking-widest uppercase text-accent hover:text-foreground transition-colors duration-300 w-fit">
-                                  Visit Site
-                                  <span className="w-8 h-[1px] bg-accent group-hover:bg-foreground transition-colors duration-300 relative">
-                                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t border-r border-accent group-hover:border-foreground rotate-45 transition-colors duration-300" />
-                                  </span>
-                                </a>
-                              )}
-                              {project.github && (
-                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs sm:text-sm font-bold tracking-widest uppercase text-accent hover:text-foreground transition-colors duration-300 w-fit">
-                                  Source Code
-                                  <span className="w-8 h-[1px] bg-accent group-hover:bg-foreground transition-colors duration-300 relative">
-                                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t border-r border-accent group-hover:border-foreground rotate-45 transition-colors duration-300" />
-                                  </span>
-                                </a>
-                              )}
-                              {project.githubFrontend && (
-                                <a href={project.githubFrontend} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs sm:text-sm font-bold tracking-widest uppercase text-accent hover:text-foreground transition-colors duration-300 w-fit">
-                                  Frontend Source
-                                  <span className="w-8 h-[1px] bg-accent group-hover:bg-foreground transition-colors duration-300 relative">
-                                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t border-r border-accent group-hover:border-foreground rotate-45 transition-colors duration-300" />
-                                  </span>
-                                </a>
-                              )}
-                              {project.githubBackend && (
-                                <a href={project.githubBackend} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs sm:text-sm font-bold tracking-widest uppercase text-accent hover:text-foreground transition-colors duration-300 w-fit">
-                                  Backend Source
-                                  <span className="w-8 h-[1px] bg-accent group-hover:bg-foreground transition-colors duration-300 relative">
-                                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t border-r border-accent group-hover:border-foreground rotate-45 transition-colors duration-300" />
-                                  </span>
-                                </a>
-                              )}
+                              {[
+                                { key: 'link', label: 'Visit Site' },
+                                { key: 'github', label: 'Source Code' },
+                                { key: 'githubFrontend', label: 'Frontend Source' },
+                                { key: 'githubBackend', label: 'Backend Source' }
+                              ].map((link) => {
+                                const url = project[link.key as keyof Project];
+                                if (typeof url !== 'string') return null;
+                                
+                                return (
+                                  <a key={link.key} href={url} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs sm:text-sm font-bold tracking-widest uppercase text-accent hover:text-foreground transition-colors duration-300 w-fit">
+                                    {link.label}
+                                    <span className="w-8 h-[1px] bg-accent group-hover:bg-foreground transition-colors duration-300 relative">
+                                      <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t border-r border-accent group-hover:border-foreground rotate-45 transition-colors duration-300" />
+                                    </span>
+                                  </a>
+                                );
+                              })}
                             </div>
                           </div>
 

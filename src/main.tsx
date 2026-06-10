@@ -4,7 +4,7 @@ import "@fontsource/geist-sans/index.css"
 import "@fontsource/geist-sans/700.css"
 import "@fontsource/geist-mono/index.css"
 import './index.css'
-import App from './App.tsx'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
