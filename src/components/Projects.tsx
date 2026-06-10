@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FadeIn } from "./FadeIn";
 import { PageTransition } from "./PageTransition";
 import voxyImg from "../assets/voxy.png";
-import cdssImg from "../assets/cdss.png";
+import cdssImg from "../assets/CDSS.png";
 import adaImg from "../assets/ada.png";
 import tictactoeImg from "../assets/tictactoe.png";
 
