@@ -16,9 +16,8 @@ export function Bio() {
                   Bio.
                 </h1>
               </FadeIn>
-              
+
               <FadeIn delay={0.3}>
-                {/* Scaled down slightly */}
                 <div className="w-full aspect-[3/4] bg-[#111] rounded-2xl overflow-hidden relative group max-w-[260px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[360px] shadow-2xl">
                   <img 
                     src={abrahamImg} 
@@ -34,21 +33,21 @@ export function Bio() {
           {/* Right Column: Biography Text */}
           <div className="md:col-span-7 lg:col-span-7 flex flex-col pt-4 md:pt-0 lg:pt-32">
             <FadeIn delay={0.4}>
-              <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-foreground/90 mb-8 md:mb-12 leading-tight">
-                Building interfaces that work well and solve real problems.
+              <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium italic text-foreground/90 mb-8 md:mb-12 leading-tight text-balance">
+                Building things that work well and solve real problems.
               </h3>
             </FadeIn>
 
             <FadeIn delay={0.5}>
               <div className="flex flex-col gap-8 md:gap-10 lg:gap-12 text-base sm:text-lg md:text-xl text-muted leading-relaxed text-balance font-light">
                 <p>
-                  I'm a Software Engineer focused on frontend development with over a year of experience building web products that scale. I work with product teams to deliver real value—partnering with backend developers, using APIs effectively, and making sure every solution actually solves a problem.
+                  I'm a Software Engineer focused on frontend development with over a year of experience building web products that scale. I work with product teams to deliver real value — partnering with backend developers, using APIs effectively, and making sure every solution actually solves a problem.
                 </p>
                 <p>
-                  I've built platforms like ticketing systems at Axile and user research tools at UserTesting using React, Next.js, and TypeScript. I don't just write code—I solve problems. Whether it's building smooth interfaces, managing complex state, or making things faster, I think carefully about every decision. I build reusable components, systems that grow with your needs, and code that works for both users and your product goals.
+                  I've built platforms like ticketing systems at Axile using React, Next.js, and TypeScript. I also have experience in usability testing and QA — evaluating digital products for accessibility, identifying bugs, and providing feedback that improves user experience. I don't just write code — I solve problems. Whether it's architecting clean frontends, managing complex state, integrating APIs, or thinking through how a system should scale, I think carefully about every decision. I build reusable components, systems that grow with your needs, and solutions that work for both users and product goals.
                 </p>
                 <p>
-                  I'm learning Backend Development and AI Engineering to become a more complete engineer. I want to build end-to-end solutions that make a real difference for the teams and products I work with.
+                  I'm currently building BRAUDLE — an AI-powered personal tutor web app — while deepening my skills in Backend Development and AI Engineering to become a more complete engineer. I want to build end-to-end solutions that make a real difference for the teams and products I work with.
                 </p>
               </div>
             </FadeIn>
@@ -57,7 +56,7 @@ export function Bio() {
               <div className="mt-12 md:mt-16 lg:mt-20 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 border-t border-foreground/10 pt-10 md:pt-12 lg:pt-16">
                 <div>
                   <h4 className="text-[10px] sm:text-xs font-mono tracking-widest text-foreground uppercase mb-5">Core Focus</h4>
-                  <ul className="text-sm md:text-base text-muted flex flex-col gap-3">
+                  <ul className="text-sm md:text-base text-muted flex flex-col gap-3 text-balance">
                     <li>UI Architecture</li>
                     <li>Design Systems</li>
                     <li>Performance Optimization</li>
@@ -65,7 +64,7 @@ export function Bio() {
                 </div>
                 <div>
                   <h4 className="text-[10px] sm:text-xs font-mono tracking-widest text-foreground uppercase mb-5">Current Pursuits</h4>
-                  <ul className="text-sm md:text-base text-muted flex flex-col gap-3">
+                  <ul className="text-sm md:text-base text-muted flex flex-col gap-3 text-balance">
                     <li>Backend Architecture</li>
                     <li>AI Integration</li>
                     <li>System Design</li>

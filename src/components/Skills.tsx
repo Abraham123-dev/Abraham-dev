@@ -12,7 +12,15 @@ const skillGroups = [
   },
   {
     title: "Backend",
-    skills: ["Supabase"]
+    skills: ["Node.js", "Express.js", "Supabase"]
+  },
+  {
+    title: "Database & Infra",
+    skills: ["Redis", "MongoDB", "Mongoose"]
+  },
+  {
+    title: "Containerization",
+    skills: ["Docker"]
   },
   {
     title: "Tools",
@@ -20,7 +28,7 @@ const skillGroups = [
   },
   {
     title: "Currently Exploring",
-    skills: ["Backend Development", "AI Engineering", "System Design"]
+    skills: ["Groq AI", "Backend Development", "AI Engineering", "System Design"]
   }
 ];
 
