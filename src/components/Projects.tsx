@@ -116,6 +116,10 @@ export function Projects() {
                   {/* Clickable Header Row */}
                   <div 
                     onClick={() => toggleProject(project.title)}
+                    onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && toggleProject(project.title)}
+                    role="button"
+                    tabIndex={0}
+                    aria-expanded={isExpanded}
                     className="group relative flex items-center justify-between py-6 md:py-10 lg:py-12 cursor-pointer transition-colors duration-500 hover:border-foreground/30"
                   >
                     <div className="flex items-center gap-4 md:gap-8 w-1/2 md:w-5/12 lg:w-1/3">
