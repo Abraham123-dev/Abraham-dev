@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FadeIn } from "./FadeIn";
-import { PageTransition } from "./PageTransition";
+import { FadeIn } from "./FadeIn.tsx";
+import { PageTransition } from "./PageTransition.tsx";
 import voxyImg from "../assets/voxy.png";
 import cdssImg from "../assets/cdss.png";
 import adaImg from "../assets/ada.png";
