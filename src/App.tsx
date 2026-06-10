@@ -6,7 +6,7 @@ import { Hero } from "./components/Hero";
 import { Bio } from "./components/Bio";
 import { Experience } from "./components/Experience";
 import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects.tsx";
+import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { IntroAnimation } from "./components/IntroAnimation";
