@@ -9,7 +9,7 @@ interface FadeInProps {
 }
 
 export function FadeIn({ children, delay = 0, direction = "up", className }: FadeInProps) {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-10%" });
 
   const directions = {
