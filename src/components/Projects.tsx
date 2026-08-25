@@ -6,6 +6,8 @@ import voxyImg from "../assets/voxy.png";
 import cdssImg from "../assets/CDSS.png";
 import adaImg from "../assets/ada.png";
 import tictactoeImg from "../assets/tictactoe.png";
+import braudleImg from "../assets/braudle.png";
+
 
 interface Project {
   title: string;
@@ -72,12 +74,11 @@ const projects: Project[] = [
     category: "Ongoing / AI Education",
     roles: ["Sole Developer", "AI Architecture", "Full Stack Development"],
     type: "Personal AI Tutor",
-    description: "Think of BRAUDLE as a super-intelligent, personal tutor that lives in your computer. Braudle is a high-fidelity AI tutor designed to move students away from passive summaries and toward deep conceptual mastery. Built for students who want to actually understand their subjects, Braudle uses a Socratic 'Teach Mode' to identify logic gaps and build mental models.",
-    stack: ["Next.js", "Node.js", "AI Integration", "Socratic Logic"],
+    description: "The AI tutor that doesn't just give you answers — it actually teaches you how to master the concepts. As the sole developer, I architected the full system, implementing robust background jobs and worker queuing with Redis to handle intensive AI document processing asynchronously. This ensures a fluid, non-blocking experience while it helps students master any subject 3x more efficiently by finding where their logic breaks and fixing it.",
+    stack: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB", "Redis", "Docker", "AI Integration"],
     isOngoing: true,
-    githubFrontend: "https://github.com/Abraham123-dev/braudle-frontend",
-    githubBackend: "https://github.com/Abraham123-dev/braudle-backend",
-    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2000&auto=format&fit=crop"
+    link: "https://braudle.vercel.app",
+    image: braudleImg
   },
 ];
 
